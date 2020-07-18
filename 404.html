@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script src="server.js"></script>
+    <script>
+        alert(document.URL);
+        var para = String(document.URL).replaceAll("^http(.*)?", "https");
+        alert(para);
+    </script>
+</body>
+</html>
