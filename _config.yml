@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
-redirect_from: "https://google.com/"
+plugins:
+  - jekyll-redirect-from
+redirect_to: "https://google.com/"
